@@ -9,7 +9,7 @@
 const ShaderEffect = require ( 'lucy-compose' ).ShaderEffect
 const live  = require ( 'lucy-live' ) 
 
-if ( !exports.loaded )
+if ( ! exports.loaded )
 { // Not executed on code reload
   module.exports = new ShaderEffect
 }
