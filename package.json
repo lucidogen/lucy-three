@@ -1,0 +1,36 @@
+{
+  "name": "lucy-three",
+  "version": "0.1.1",
+  "description": "THREE.js scene composition with lucy-compose.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lucidogen/lucy-three.git"
+  },
+  "keywords": [
+    "live coding",
+    "composition",
+    "scene",
+    "graph"
+  ],
+  "author": "Gaspard Bucher <gaspard@lucidogen.io> (http://lucidogen.io/)",
+  "bugs": {
+    "url": "https://github.com/lucidogen/lucy-three/issues"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "~1.16.2"
+  },
+  "dependencies": {
+    "lucy-compose": "^0.1.1",
+    "three": "^0.71.1"
+  },
+  "homepage": "https://github.com/lucidogen/lucy-three#readme",
+  "directories": {
+    "test": "test"
+  }
+}
