@@ -1,6 +1,6 @@
 {
   "name": "lucy-three",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "THREE.js scene composition with lucy-compose.",
   "main": "index.js",
   "license": "MIT",
