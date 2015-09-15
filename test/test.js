@@ -7,6 +7,7 @@ const lthree  = require ( '../index' )
 const MixShader       = require ( '../lib/MixShader'       )
 const RecursiveShader = require ( '../lib/RecursiveShader' )
 const ShaderEffect    = require ( '../lib/ShaderEffect'    )
+const Anaglyph        = require ( '../lib/Anaglyph'        )
 const WebGLRenderer   = require ( '../lib/WebGLRenderer'   )
 
 describe
@@ -20,6 +21,7 @@ describe
         ( { MixShader
           , RecursiveShader
           , ShaderEffect
+          , Anaglyph
           , WebGLRenderer
           }
         )
