@@ -1,6 +1,6 @@
 {
   "name": "lucy-three",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "THREE.js scene composition with lucy-compose.",
   "main": "index.js",
   "license": "MIT",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "lucy-compose": "^0.1.1",
-    "three": "^0.71.1"
+    "three": "^0.72.0"
   },
   "homepage": "https://github.com/lucidogen/lucy-three#readme",
   "directories": {

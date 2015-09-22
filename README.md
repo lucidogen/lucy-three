@@ -57,7 +57,7 @@ Transition between 'cube' and 'sphere' scenes using a 'fade' effect.
 
 ## Scene API
 
-Look at the examples in 'examples' to get an idea of Scene definition.
+Look at the examples in 'examples' to get an idea of Scene definitions.
 
 ## Installation
 
@@ -79,5 +79,6 @@ Add unit tests for any new or changed functionality.
 
 ## Release History
 
-* 0.1.1 (2015-09-03) Fixed main module.
-* 0.1.0 (2015-09-03) Initial release.
+  * 0.2.0 (2015-09-22) Anaglyph renderer, better resizing support.
+  * 0.1.1 (2015-09-03) Fixed main module.
+  * 0.1.0 (2015-09-03) Initial release.
