@@ -1,15 +1,21 @@
 # Lucy Three [![Build Status](https://travis-ci.org/lucidogen/lucy-three.svg)](https://travis-ci.org/lucidogen/lucy-three)
 
-Part of [lucidity](http://lucidity.io) project.
-
-## THREE.js scene composition tool
-
 Compose complexe scenes by writing simple composition functions with support for
 live (shader) coding.
 
 Asynchronous scene loading and setup uses promises and ensures that scenes down
 the graph hierarchy are entirely loaded before they are inserted in parent
 objects through the call to `setup`.
+
+Part of [lucidity](http://lucidity.io) project.
+
+## Installation
+
+  ```sh
+  npm install lucy-three --save
+  ```
+
+## Usage example
 
 First declare sources by specifying a folder.
 
@@ -59,15 +65,10 @@ Transition between 'cube' and 'sphere' scenes using a 'fade' effect.
 
 Look at the examples in 'examples' to get an idea of Scene definitions.
 
-## Installation
-
-  ```shell
-  npm install lucy-three --save
-  ```
 
 ## Tests
 
-  ```shell
+  ```sh
    npm test
   ```
 
